@@ -35,7 +35,6 @@ body {
     position: absolute;
     width: 1440px;
     height: 669px;
-    display: flex;
 
 
 
@@ -64,11 +63,176 @@ body {
     text-decoration: none;
     background-image: linear-gradient(tomato, tomato);
     background-color: #FF5959;
-    padding: 15px 40px;
-    font-weight: 700;
-    border-radius: 7%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 12px;
+    gap: 3px;
+    position: absolute;
+    width: 160px;
+    height: 56px;
+    left: 640px;
+    top: 438px;
+    border-radius: 5px;
+    top: 500px;
+
+
 }
 
 .button {
     color: rgb(248, 244, 244);
+}
+
+.donate {
+    position: absolute;
+    width: 304px;
+    height: 54px;
+    left: 568px;
+    top: 750px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 54px;
+    text-align: center;
+
+    color: #121212;
+}
+
+.don1 {
+    position: absolute;
+    width: 691px;
+    height: 56px;
+    left: 375px;
+    top: 860px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #707070;
+}
+
+.tk {
+    position: absolute;
+    width: 86px;
+    height: 36px;
+    left: 330px;
+    top: 950px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    width: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 6%;
+}
+
+.tk2 {
+    position: absolute;
+    width: 86px;
+    height: 36px;
+    left: 488px;
+    top: 950px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    width: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 6%;
+}
+
+.tk3 {
+    position: absolute;
+    width: 86px;
+    height: 36px;
+    left: 646px;
+    top: 950px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    width: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 6%;
+}
+
+
+.tk4 {
+    position: absolute;
+    width: 86px;
+    height: 36px;
+    left: 804px;
+    top: 950px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    width: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 6%;
+}
+
+.tk5 {
+    position: absolute;
+    width: 86px;
+    height: 36px;
+    left: 962px;
+    top: 950px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #707070;
+    width: 5%;
+    padding: 2%;
+    box-shadow: 10px 10px 30px gray;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 6%;
+}
+
+.other1 {
+    position: absolute;
+    width: 192px;
+    height: 28px;
+    left: 650px;
+    top: 1162px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #B3B3B3;
+    border-bottom: #121212;
 }
