@@ -36,9 +36,6 @@ body {
     width: 1440px;
     height: 669px;
 
-
-
-
 }
 
 .test {
@@ -480,4 +477,58 @@ body {
     height: 511px;
     left: 732px;
     top: 2097px;
+}
+
+.subs {
+    text-decoration: white;
+    background-image: linear-gradient(tomato, tomato);
+    background-color: #FF5959;
+    display: flex;
+    position: absolute;
+    width: 157px;
+    height: 48px;
+    left: 780px;
+    top: 2818px;
+    padding: 16px 12px;
+    gap: 3px;
+    border-radius: 5px;
+    border-color: #444343;
+}
+
+.field {
+    position: absolute;
+    width: 266px;
+    height: 42px;
+    left: 505px;
+    top: 2818px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+    border-radius: 5px;
+
+}
+
+.none {
+    position: absolute;
+    width: 809px;
+    height: 200px;
+    left: 316px;
+    top: 2700px;
+    background: #FFF4D6;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 158px;
+    height: 92px;
+    left: 653px;
+    top: 3000px;
+    color: #121212;
 }
